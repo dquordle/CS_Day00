@@ -111,7 +111,6 @@ if (!int.TryParse(args[3], out int sel_M) || sel_M < 0)
     return (wrong_arg());
 if (!double.TryParse(args[4], out double payment) || payment < 0)
     return (wrong_arg());
-// Console.WriteLine($"Credit sum is {sum}");
 
 double sum_red_op = Math.Round(ft_sum_red(sum, rate, term, sel_M, payment), 2);
 double time_red_op = Math.Round(ft_time_red(sum, rate, term, sel_M, payment), 2);
