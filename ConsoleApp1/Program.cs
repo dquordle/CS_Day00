@@ -81,7 +81,6 @@ double ft_time_red(double sum, double rate, int term, int sel_M, double payment)
             sum -= payment;
             it = -1;
             term = (int)Math.Ceiling(get_months(sum, monthly, rate));
-            Console.WriteLine(term);
             res += payment;
             sel_M = -1;
         }
@@ -91,7 +90,6 @@ double ft_time_red(double sum, double rate, int term, int sel_M, double payment)
             month = 1;
             year++;
         }
-        Console.WriteLine($"monthly: {monthly}, percent: {percent}, ost: {sum}");
     }
     res += sum;
     return res - init_sum;

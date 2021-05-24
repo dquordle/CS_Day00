@@ -33,19 +33,22 @@ int LevenshteinDistance(string s1, string s2)
     return Matrix[s1.Length, s2.Length];
 }
 
-Console.WriteLine(LevenshteinDistance("boSunday", "Sunday"));
-if (!File.Exists("/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/us.txt"))
+if (!File.Exists("./us.txt"))
 {
     Console.WriteLine("Файл со списком имен не найден");
     return 1;
 }
 
-string[] names = File.ReadAllLines("/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/us.txt");
+string[] names = File.ReadAllLines("./us.txt");
 
 Console.WriteLine("Enter Name: ");
 string user = Console.ReadLine();
 if (string.IsNullOrEmpty(user))
+{
     Console.WriteLine("Your name was not found");
+    return 0;
+}
+
 string[] dist_1 = new string[names.Length];
 string[] dist_2 = new string[names.Length];
 string[] dist_3 = new string[names.Length];
