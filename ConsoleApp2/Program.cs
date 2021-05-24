@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text.RegularExpressions;
 
 int LevenshteinDistance(string s1, string s2)
 {
@@ -43,9 +44,16 @@ string[] names = File.ReadAllLines("./us.txt");
 
 Console.WriteLine("Enter Name: ");
 string user = Console.ReadLine();
+
 if (string.IsNullOrEmpty(user))
 {
     Console.WriteLine("Your name was not found");
+    return 0;
+}
+
+if (!Regex.IsMatch(user, @"^[a-zA-Z _]+$"))
+{
+    Console.WriteLine("Invalid name");
     return 0;
 }
 
