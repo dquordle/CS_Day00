@@ -1,0 +1,15 @@
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/bin/Debug/net5.0/ConsoleApp2.deps.json
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/bin/Debug/net5.0/ConsoleApp2.runtimeconfig.json
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/bin/Debug/net5.0/ConsoleApp2.runtimeconfig.dev.json
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/bin/Debug/net5.0/ConsoleApp2.dll
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/bin/Debug/net5.0/ref/ConsoleApp2.dll
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/bin/Debug/net5.0/ConsoleApp2.pdb
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ConsoleApp2.csprojAssemblyReference.cache
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ConsoleApp2.AssemblyInfoInputs.cache
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ConsoleApp2.AssemblyInfo.cs
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ConsoleApp2.csproj.CoreCompileInputs.cache
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ConsoleApp2.dll
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ref/ConsoleApp2.dll
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ConsoleApp2.pdb
+/Users/dquordle/RiderProjects/Solution2/ConsoleApp2/obj/Debug/net5.0/ConsoleApp2.genruntimeconfig.cache
